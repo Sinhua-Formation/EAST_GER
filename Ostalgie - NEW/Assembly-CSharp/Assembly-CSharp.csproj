@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA81F30F-47AA-4A35-8267-4F9840AC0FC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Assembly-CSharp</RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\Ostalgie The Berlin Wall\Ostalgie_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\Ostalgie The Berlin Wall\Ostalgie_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\Ostalgie The Berlin Wall\Ostalgie_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\Ostalgie The Berlin Wall\Ostalgie_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\Ostalgie The Berlin Wall\Ostalgie_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="achievements.cs" />
+    <Compile Include="at_war_script.cs" />
+    <Compile Include="authores.cs" />
+    <Compile Include="Building.cs" />
+    <Compile Include="BuildingManager.cs" />
+    <Compile Include="BuildingScript.cs" />
+    <Compile Include="BuildReScript.cs" />
+    <Compile Include="BuildSelectScript.cs" />
+    <Compile Include="CascadScrupt.cs" />
+    <Compile Include="ChoiceButton.cs" />
+    <Compile Include="ChoiceSystemController.cs" />
+    <Compile Include="CityScript.cs" />
+    <Compile Include="Country.cs" />
+    <Compile Include="CountryScript.cs" />
+    <Compile Include="CountrySelectScript.cs" />
+    <Compile Include="CreateScript.cs" />
+    <Compile Include="Crushok_politic.cs" />
+    <Compile Include="cutyourbudget.cs" />
+    <Compile Include="DiffScript.cs" />
+    <Compile Include="DiploButtonScript.cs" />
+    <Compile Include="DLCEndingScript.cs" />
+    <Compile Include="doneventscript.cs" />
+    <Compile Include="ElectScript.cs" />
+    <Compile Include="ending_script.cs" />
+    <Compile Include="englishimages.cs" />
+    <Compile Include="EnterScript.cs" />
+    <Compile Include="Event1110.cs" />
+    <Compile Include="EventScript.cs" />
+    <Compile Include="EventsForDLC\EventsSecond.cs" />
+    <Compile Include="EvetnnashScript.cs" />
+    <Compile Include="Exitscript.cs" />
+    <Compile Include="galovhka.cs" />
+    <Compile Include="GameStartScript.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="Game_Event.cs" />
+    <Compile Include="GlobalScript.cs" />
+    <Compile Include="IButton.cs" />
+    <Compile Include="IButtonPressReceiver.cs" />
+    <Compile Include="in1992_script.cs" />
+    <Compile Include="LanguageScript.cs" />
+    <Compile Include="leading_script.cs" />
+    <Compile Include="liberalismscript.cs" />
+    <Compile Include="LoadInScript.cs" />
+    <Compile Include="LoadScript.cs" />
+    <Compile Include="MapChangesScript.cs" />
+    <Compile Include="MapTypeScript.cs" />
+    <Compile Include="Min_show_script.cs" />
+    <Compile Include="modify_choose.cs" />
+    <Compile Include="Need_save.cs" />
+    <Compile Include="OknoHideScipt.cs" />
+    <Compile Include="OkoshkoScript.cs" />
+    <Compile Include="OnButtonEndingScript.cs" />
+    <Compile Include="Party_ally_script.cs" />
+    <Compile Include="Party_zapret.cs" />
+    <Compile Include="perehodscript.cs" />
+    <Compile Include="PlayOnTouch.cs" />
+    <Compile Include="Politic_Data_Show_cel.cs" />
+    <Compile Include="Politic_Data_Show_Script.cs" />
+    <Compile Include="Politic_doctr_script.cs" />
+    <Compile Include="Politic_party_name_show.cs" />
+    <Compile Include="Politic_set_script.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Region.cs" />
+    <Compile Include="RegionChangeScript.cs" />
+    <Compile Include="ReqEventsDLC\ReqEventForDLC.cs" />
+    <Compile Include="Results_text.cs" />
+    <Compile Include="Savescript.cs" />
+    <Compile Include="ScienceHappenedScript.cs" />
+    <Compile Include="sciencescript.cs" />
+    <Compile Include="SettingInGameScript.cs" />
+    <Compile Include="Show_diplomacy_data_script.cs" />
+    <Compile Include="sizescript.cs" />
+    <Compile Include="speechscript.cs" />
+    <Compile Include="SpeedScript.cs" />
+    <Compile Include="StartGameScript.cs" />
+    <Compile Include="Stasi_script.cs" />
+    <Compile Include="Stat_script.cs" />
+    <Compile Include="ThisDateToScience.cs" />
+    <Compile Include="TimeScript.cs" />
+    <Compile Include="Total.cs" />
+    <Compile Include="TranslateScript.cs" />
+    <Compile Include="TutorialButtonScript.cs" />
+    <Compile Include="TutorialScript.cs" />
+    <Compile Include="URLscript.cs" />
+    <Compile Include="VersioNScript.cs" />
+    <Compile Include="VkladkaScript.cs" />
+    <Compile Include="VoiceChangeScript.cs" />
+    <Compile Include="VoiceSciptr.cs" />
+    <Compile Include="YugoCountry.cs" />
+    <Compile Include="Yugoglobal.cs" />
+    <Compile Include="YugoMapButtons.cs" />
+    <Compile Include="YugoMapManager.cs" />
+    <Compile Include="YugoRegion.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
